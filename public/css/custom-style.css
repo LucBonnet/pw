@@ -1,0 +1,99 @@
+section#about {
+  width: 75%;
+  margin: 0 auto;
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+section#about .container div h2 {
+  margin-bottom: 15px;
+}
+
+section#skills {
+  width: 75%;
+  margin: 0 auto;
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+section#skills .container div h2 {
+  margin-bottom: 50px;
+}
+
+section#skills .skill-card-grid {
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+section#skills .skill-card-grid .skill-card{
+  width: 100%;
+}
+
+section#skills .skill-card-grid .skill-card img {
+  width: 100%;
+}
+
+section#contact .container form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+section#contact .container form fieldset div.input-block {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+} 
+
+section#contact .container form fieldset div.input-block label {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+section#contact .container form fieldset div.input-block input {
+  border-radius: 20px;
+  border: none;
+
+  padding: 15px 20px 15px 20px;
+
+  width: 100%;
+}
+
+section#contact .container form fieldset div.input-block textarea {
+  border-radius: 20px;
+  border: 1px solid #000;
+
+  width: 100%;
+
+  padding: 15px 20px 15px 20px;
+
+  resize: vertical;
+}
+
+footer a#id {
+  width: 10%;
+}
+
+footer a img {
+  width: 100%;
+}
