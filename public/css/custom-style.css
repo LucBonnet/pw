@@ -90,6 +90,21 @@ section#contact .container form fieldset div.input-block textarea {
   resize: vertical;
 }
 
+section#contact .container form fieldset button {
+  border: none;
+  border-radius: 20px;
+  background-color: #fece3a;
+
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+
+  color: #333;
+
+  padding: 10px 0;
+}
+
 footer a#id {
   width: 10%;
 }

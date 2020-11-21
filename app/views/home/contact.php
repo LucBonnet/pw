@@ -25,6 +25,8 @@
             <label for="message">Mensagem</label>
             <textarea name="message" id="message"></textarea>
           </div>
+
+          <button type="submit">Enviar</button>
         </fieldset>
       </form>
   </div>
