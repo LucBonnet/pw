@@ -14,6 +14,10 @@ section#about .container div h2 {
   margin-bottom: 15px;
 }
 
+section#about .container p {
+  font-family: 'Roboto', sans-serif;
+}
+
 section#skills {
   width: 75%;
   margin: 0 auto;
